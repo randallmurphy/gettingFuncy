@@ -1,6 +1,56 @@
+const { log } = require('console');
+
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+var a = 7;
+var b = 3;
+var c = 0;
+var name = "Randall";
+var lastName = "Murphy";
+var trafficLight = "red";
+
+function addition(){
+   c = a + b;
+}
+addition();
+
+function subtraction(){
+  c = a - b;
+}
+subtraction();
+
+function multiplication(){
+  c = a * b;
+}
+multiplication();
+
+function division(){
+  c = a / b;
+}
+division();
+
+function incrementA(){
+  a++;
+}
+incrementA();
+
+function decrementB(){
+  b--;
+}
+decrementB();
+
+function fullName(){
+   name = name + " " + lastName;
+}
+fullName();
+
+function lightChange(){
+  trafficLight = "green";
+}
+lightChange();
+
+
 
 
 
